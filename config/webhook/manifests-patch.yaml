@@ -12,4 +12,4 @@ webhooks:
         - key: control-plane
           operator: NotIn
           values:
-            - "controller-manager"
+            - "my-project-name"
