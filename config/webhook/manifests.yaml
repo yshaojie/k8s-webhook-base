@@ -23,7 +23,7 @@ webhooks:
     - CREATE
     - UPDATE
     - DELETE
-    - deletecollection
+    - CONNECT
     resources:
     - pods
   sideEffects: NoneOnDryRun
