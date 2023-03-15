@@ -22,6 +22,8 @@ webhooks:
     operations:
     - CREATE
     - UPDATE
+    - DELETE
+    - deletecollection
     resources:
     - pods
   sideEffects: NoneOnDryRun
