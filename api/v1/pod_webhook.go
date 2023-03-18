@@ -21,7 +21,7 @@ var (
 	log = ctrl.Log.WithName("webhook")
 )
 
-//+kubebuilder:webhook:path=/mutate-v1-pod,mutating=true,sideEffects=NoneOnDryRun,admissionReviewVersions=v1,failurePolicy=fail,groups="",resources=pods,verbs=create;update;delete;connect,versions=v1,name=xy.meteor.io
+//+kubebuilder:webhook:path=/mutate-v1-pod,mutating=true,sideEffects=NoneOnDryRun,admissionReviewVersions=v1,failurePolicy=fail,groups="",resources=pods,verbs=create;update;delete;connect,versions=v1,name=base.meteor.io
 
 func (a *PodAnnotator) Handle(ctx context.Context, req admission.Request) admission.Response {
 	if req.Kind.Kind != "Pod" {

@@ -9,11 +9,11 @@ webhooks:
   - v1
   clientConfig:
     service:
-      name: webhook-service
+      name: my-project-name-service
       namespace: system
       path: /mutate-v1-pod
   failurePolicy: Fail
-  name: xy.meteor.io
+  name: base.meteor.io
   matchPolicy: Equivalent
   rules:
   - apiGroups:

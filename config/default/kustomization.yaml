@@ -61,11 +61,11 @@ vars:
   objref:
     kind: Service
     version: v1
-    name: webhook-service
+    name: my-project-name-service
   fieldref:
     fieldpath: metadata.namespace
 - name: SERVICE_NAME
   objref:
     kind: Service
     version: v1
-    name: webhook-service
+    name: my-project-name-service
